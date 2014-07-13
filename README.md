@@ -4,10 +4,18 @@ This is a demo TODO project with CompoundJS, Jade and CoffeeScript.
 
 #### How was it created ####
 
+##### Install CompoundJS #####
+
+```
+npm install compound -g
+```
+
 ##### Initialize the project with Jade and CoffeeScript #####
 
 ```
 compound init compound-todo --tpl jade --coffee
+cd compound-todo
+npm install
 ```
 
 ##### Create a CRUD with Jade and CoffeeScript #####
