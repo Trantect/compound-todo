@@ -2,6 +2,13 @@
 
 This is a demo TODO project with CompoundJS, Jade and CoffeeScript.
 
+#### How to run it ####
+
+```
+npm install
+coffee server
+```
+
 #### How was it created ####
 
 ##### Install CompoundJS #####
