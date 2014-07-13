@@ -1,12 +1,12 @@
 ### Welcome to CompoundJS ###
 
-This is a demo TODO project with CompoundJS, Jade and CoffeeScript.
+This is a demo TODO project with CompoundJS, Jade, CoffeeScript and LESS.
 
 #### How to run it ####
 
 ```
 npm install
-coffee server
+coffee server.coffee
 ```
 
 #### How was it created ####
@@ -20,7 +20,7 @@ npm install compound -g
 ##### Initialize the project with Jade and CoffeeScript #####
 
 ```
-compound init compound-todo --tpl jade --coffee
+compound init compound-todo --tpl jade --coffee --css less
 cd compound-todo
 npm install
 ```
