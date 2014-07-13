@@ -26,7 +26,7 @@ compound generate crud post title content date:date published:boolean --tpl jade
 
 ##### Correct doctype #####
 
-CompoundJS generated .jade files with a old style. So, you will need to correct the .jade files by replacing **!!! 5** with **doctype html**.
+CompoundJS generated .jade files with a old style. So, you will need to correct the .jade files by replacing _!!! 5_ with _doctype html_.
 
 ##### Error: Cannot find module 'jade~' #####
 
