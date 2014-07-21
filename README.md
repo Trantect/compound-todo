@@ -29,8 +29,9 @@ npm install
 
 ```
 compound generate crud post title content date:date published:boolean --tpl jade --coffee
-```
 
+```
+model name must define less letter，else you will get undefine error
 ##### Correct doctype #####
 
 CompoundJS generated .jade files with a old style. So, you will need to correct the .jade files by replacing _!!! 5_ with _doctype html_.
